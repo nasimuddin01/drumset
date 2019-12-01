@@ -1,19 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   text-align: center;
   background-color: #08d9d6;
+  font-family: 'Alatsi', sans-serif;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 h1 {
   font-size: 6rem;
   color: #ff2e63;
-  font-family:cursive;
-  text-shadow: 5px 0 white;
-
+  text-shadow: 3px 1px white;
 }
-
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
 footer {
   color: #DBEDF3;
-  font-family:monospace;
   font-size: 2rem;
 }
 
@@ -60,18 +73,17 @@ footer {
 }
 
 .drum {
-  border: 5px solid black;
+  border: 3px solid #ff2e63;
   font-size: 5rem;
-  font-family:monospace;
+  font-family: monospace;
   line-height: 2;
   font-weight: 700;
-  color:#ff2e63;
-  text-shadow: 3px 0 white;
-  border-radius: 100%;
+  color: #ff2e63;
+  text-shadow: 1.5px 1px white;
+  border-radius: 50%;;
   display: inline-block;
   width: 150px;
   height: 150px;
   text-align: center;
   margin: 10px;
-  background-color: white;
 }
