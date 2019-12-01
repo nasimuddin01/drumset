@@ -8,8 +8,6 @@ I used here:
 3. JavaScript DOM manipulation
 4. JavaScript DOM Event Listener 
 
-Here is live website :
-
-http://drumset.epizy.com/
+Here is live website: https://playdrum.netlify.com/
 
 Enjoy!
